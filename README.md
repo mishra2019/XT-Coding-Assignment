@@ -1,4 +1,5 @@
 I have use Css and React for building this project.
+You have to first install Node.js in your system for npm packages.
 
 First I created an react app by using the command :
 
