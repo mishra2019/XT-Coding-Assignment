@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+
+}
+.container{
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+ 
+}
+h1{
+  margin-left: 1%;
+  
+}
+.box1{
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-right: 20px;
+   margin-left: 10%;
+  display: inline-block;
+  border: 1px solid white;
+  height: 480px;
+  width: 200px;
+}
+.box2{
+  display: inline-block;
+  height: 700px;
+  width: 1500px;
+  margin: 10px;
+}
+
+h5{
+  text-align: center;
+  border: 1px solid white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+button{
+  background-color:#D2FBA4;
+  width: 60px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+.clicked{
+  background-color: rgb(104, 218, 104);
+
+}
+
+.box1 .btn{
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+
+.cards-flex{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  padding:2% 2%;
+  width: 20%;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+}
+img{
+  width: 80%;
+  display: block;
+  margin: 0 auto 25px;
+  background-color: #f4f4f4;
+}
+ul{
+  padding-left: 30px;
+}
+h4{
+  color: rgb(67, 67, 194);
+  margin-bottom: 10px;
+}
+p{
+  margin: 2px 0;
+  
+}
+span{
+  font-weight: bold;
+}
+
+/* Media query Section */
+@media (max-width:700px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   .box1{
+     margin-left: 0;
+   }
+  .box2{
+    width: 100%;
+  }
+
+  .card{
+    width: 60%;
+  }
+}
+
+@media (min-width:700px) and (max-width:1023px){
+  
+   .box2{
+     width: 80%;
+   }
+   .card{
+ 
+    width: 50%;
+   }
+}
+@media (min-width:1024px) and (max-width:1440px){
+  .box2{
+    width: 80%;
+  }
+  .card{
+ 
+    width: 30%;
+   }
+
+}
